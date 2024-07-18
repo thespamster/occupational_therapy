@@ -5,3 +5,69 @@ h1 {
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
+
+.header-style {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.img-style {
+    width: 256px;
+    height: 256px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 2px #000000;
+    padding: 10px;
+}
+
+.box-style {
+    margin-top: 20px;
+    height: 256px;
+    border: 2px solid #000000;
+}
+
+.box-col1 {
+    background-color: rgba(23, 233, 16, 0.5)
+}
+
+.box-col2 {
+    background-color: rgba(23, 233, 16, 0.75)
+}
+
+.box-col3 {
+    background-color: rgba(23, 233, 16, 1.0)
+}
+
+/* Custom CSS */
+
+.navbar-col {
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar-button-style{
+    border: 0;
+}
+
+.navbar-button-style:active{
+    outline:none;
+}
+
+.row-col1 {
+    background-color: rgba(172, 177, 172, 0.25);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.25);
+    height: 8rem;
+    margin-top: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
