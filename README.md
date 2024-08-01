@@ -14,6 +14,10 @@ Initial Google Lighthouse Testing before optimisation.
 
 [Bootstrap5.3](https://getbootstrap.com/) - CSS and Javascript library
 
+[convertio.co](https://convertio.co/) - convert images to webp format
+
+[favicon.io](https://favicon.io/) - favicon image creator
+
 ## Acknowledgements
 
 [Footer that sticks to bottom of content/screen](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - Thanks to Nehal Ahmad
