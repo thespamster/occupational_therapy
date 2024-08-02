@@ -50,6 +50,10 @@ h1 {
     outline:none;
 }
 
+.active {
+    font-weight: bold !important;
+}
+
 .row-col1 {
     background-color: rgba(254, 117, 4, 0.15);
     border-radius: 10px;
