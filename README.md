@@ -24,4 +24,6 @@ Initial Google Lighthouse Testing before optimisation.
 
 [Stackoverflow](https://stackoverflow.com/questions/71813422/how-would-i-make-a-transition-for-the-div-to-slide-to-the-left-and-come-out-thro) - Adapted to provide a single sliding div from right to left
 
-[Flaticon](https://www.flaticon.com/) - Free icons
+[Flaticon](https://www.flaticon.com/) - Free icons from Freepik
+
+[codingyaar](https://codingyaar.com/shorts/bootstrap-navbar-toggler-color-change/) - Change color of Bootstrap5 svg hamburger icon
