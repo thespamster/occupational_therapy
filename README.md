@@ -10,9 +10,15 @@ the author, 4uxdesign. The images are also subject to copyright and are not to b
 
 ## Performance and Testing
 
-Google Lighthouse Testing before deployment.
+[amiresponsive](https://ui.dev/amiresponsive?url=https://thespamster.github.io/occupational_therapy/) - Demonstrates the responsiveness of the website across various screen sizes.
 
-![](static/img/glighttests0824.png)
+Google Lighthouse Testing after deployment to Github pages.
+
+![](static/img/glighthousefinal0824.png)
+
+## Deployment
+
+Currently deployed to Github pages.
 
 ## Technologies
 
