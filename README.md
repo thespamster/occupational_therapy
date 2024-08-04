@@ -1,3 +1,5 @@
+![](static/img/amiresponsive.png)
+
 # Uniquely Occupational Therapy
 
 ** UNDER CONSTRUCTION **
@@ -19,6 +21,8 @@ Google Lighthouse Testing before deployment.
 [convertio.co](https://convertio.co/) - convert images to webp format
 
 [favicon.io](https://favicon.io/) - favicon image creator
+
+[Google Fonts](https://fonts.google.com/) - Caveat and Roboto fonts
 
 ## Acknowledgements
 
