@@ -10,7 +10,7 @@ the author, 4uxdesign. The images are also subject to copyright and are not to b
 
 Google Lighthouse Testing before deployment.
 
-![](static/img/glighthouse0824.png)
+![](static/img/glighttests0824.png)
 
 ## Technologies
 
