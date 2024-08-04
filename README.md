@@ -2,13 +2,15 @@
 
 ** UNDER CONSTRUCTION **
 
-A website build for an Occupational Therapy and Mental Health business based in South Africa.
+A website build for an Occupational Therapy and Mental Health business based in South Africa. 
+The code is subject to copyright and is not not to be used without the express permission of
+the author, 4uxdesign. The images are also subject to copyright and are not to be used without the express permission of the author.
 
 ## Performance and Testing
 
-Initial Google Lighthouse Testing before optimisation.
+Google Lighthouse Testing before deployment.
 
-![](static/img/SCR-20240731-ukxd.png)
+![](static/img/glighthouse0824.png)
 
 ## Technologies
 
@@ -24,6 +26,6 @@ Initial Google Lighthouse Testing before optimisation.
 
 [Stackoverflow](https://stackoverflow.com/questions/71813422/how-would-i-make-a-transition-for-the-div-to-slide-to-the-left-and-come-out-thro) - Adapted to provide a single sliding div from right to left
 
-[Flaticon](https://www.flaticon.com/) - Free icons from Freepik
+[Flaticon](https://www.flaticon.com/) - Free icons from Freepik. Used during development as a placeholder image
 
 [codingyaar](https://codingyaar.com/shorts/bootstrap-navbar-toggler-color-change/) - Change color of Bootstrap5 svg hamburger icon

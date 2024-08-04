@@ -1,3 +1,0 @@
-/*
-    Custom JS and or jQuery for project
-*/
