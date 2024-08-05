@@ -122,38 +122,3 @@ a {
 .navbar-toggler:active {
     border: 0;
 }
-
-/* Animations for info divs on all pages */
-.move2 {
-    animation-name: move;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes move {
-    0% {
-        transform: translateX(100vw);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-.move3 {
-    animation-name: move1;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes move1 {
-    0% {
-        transform: translateX(-100vw);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
