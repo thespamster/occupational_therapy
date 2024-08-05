@@ -124,7 +124,7 @@ a {
 }
 
 /* Animations for info divs on all pages */
-.move {
+.move2 {
     animation-name: move;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
@@ -141,7 +141,7 @@ a {
     }
 }
 
-.move1 {
+.move3 {
     animation-name: move1;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
