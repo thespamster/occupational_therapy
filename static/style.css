@@ -92,6 +92,16 @@
     border-radius: 10px;
 }
 
+.row-col11 {
+    background-color: rgba(255, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.row-col12 {
+    border: 2px solid rgba(255, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
 /* Google Maps styling */
 .gmap {
 width: 600px;
