@@ -124,6 +124,12 @@ a {
     color: rgb(255, 255, 255) !important;
 }
 
+.footer-btn-style {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
 /* Adjusts Bootstrap navbar hamburger style */
 .navbar-toggler {
     border: 0;
