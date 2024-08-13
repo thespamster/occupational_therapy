@@ -132,3 +132,23 @@ a {
 .navbar-toggler:active {
     border: 0;
 }
+
+/* form style */
+#submit-button-style {
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#form {
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 10px;
+    background-color: rgba(246, 255, 0, 0.15);
+}

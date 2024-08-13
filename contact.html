@@ -19,6 +19,15 @@
 
   <title>Contact Us</title>
   <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
+
+  <!-- ** NEEDS TO BE SETUP ** js to initialise the emailjs service 
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script>
+      (function () {
+          emailjs.init("9aycvO4U6QlcS3Fzn"); ** Dummy ID **
+      })();
+  </script> -->
 </head>
 <header>
 
@@ -35,8 +44,8 @@
         <div class="navbar-nav">
           <a class="nav-link" aria-current="page" href="index.html">Welcome</a>
           <a class="nav-link" href="childrensot.html">Childrens OT</a>
-          <a class="nav-link" href="aldultsot.html">Adults OT</a>
           <a class="nav-link" href="mentalhealth.html">Mental Health</a>
+          <a class="nav-link" href="aldultsot.html">Vocational Services</a>
           <a class="nav-link" href="eval.html">Evaluations</a>
           <a class="nav-link active" href="contact.html">Contact OTS</a>
         </div>
@@ -56,7 +65,7 @@
         <h2>Contact By Phone</h2>
         <p>Phone: 0770 787 6789. If you would like to speak to me about how I can help then please ring me during office Hours
           (see below) for an informal chat. If I am unable to answer please leave a message and I will get back to you as soon
-           as possible.</p>
+          as possible.</p>
         </p>
       </div>
     </div>
@@ -72,14 +81,37 @@
       <div class="col-12 col-lg-6 m-4 order-2 order-lg-1 text-start">
         <h2>Contact By Email</h2>
         <p>Email: rlots@email.com. When sending an email please include as much information as possible but remember not to include anything medically
-           sensitive. I typically respond to emails within 48-72hrs so if you need to speak to me more urgently please ring me 
-           using the number above.</p>
+          sensitive. I typically respond to emails within 48-72hrs so if you need to speak to me more urgently please ring me 
+          using the number above.</p>
       </div>
       <div class="col-12 col-lg-4 m-4 order-1 order-lg-2 d-flex justify-content-center">
         <img src="static/img/clo749x500.webp" alt="OT" class="img-fluid img-style1">
       </div>
     </div>
   </div>
+  <div class="row d-flex justify-content-center align-items-center row-col10 m-1">
+    <div class="col-12 col-lg-6 m-4 order-2 order-lg-1">
+       <!-- project request form with emailjs -->
+    <div class="row d-flex justify-content-center py-4">
+      <div class="col-12 col-md-8 d-flex justify-content-center">
+          <div class="col-11 form-style d-flex justify-content-center">
+              <div id="form">
+                  <form id="project-form" onsubmit="return sendMail(this);" method="POST">
+                      <input type="text" name="name" id="fullname" class="form-control py-1 mb-2" placeholder="Your Name"
+                          required>
+                      <input type="email" name="email" id="emailaddress" class="form-control py-1 mb-2" placeholder="Your Email"
+                          required>
+                      <textarea rows="10" cols="25" name="projectsummary" id="projectsummary" class="form-control py-1 mb-2"
+                          placeholder="A brief description..." required></textarea>
+                      <button type="submit" id="submit-button-style">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
 
   <!-- Custom footer -->
   <footer class="row d-flex align-items-start justify-content-evenly g-0 py-4">
