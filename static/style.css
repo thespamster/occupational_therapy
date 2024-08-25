@@ -158,3 +158,20 @@ a {
     border-radius: 10px;
     background-color: rgba(246, 255, 0, 0.15);
 }
+
+.modal-title {
+    color: black;
+}
+
+.modal-body {
+    color: black;
+}
+
+/* CSS to align SVG icons and accompanying text */
+.icon,
+.text {
+    text-align: start;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
