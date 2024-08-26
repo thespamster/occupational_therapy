@@ -16,7 +16,7 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('cookieButton')
 if (alertTrigger) {
     alertTrigger.addEventListener('click', () => {
-        appendAlert("The embedded Google Map uses the latest Javascript API which doesn't uses cookies. This site does not use tracking cookies of any kind", 'warning')
+        appendAlert("The embedded Google Map uses the latest Javascript API which doesn't uses cookies. This site does not use tracking cookies of any kind.", 'warning')
     })
 }
 
