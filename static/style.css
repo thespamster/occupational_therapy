@@ -104,18 +104,15 @@
 
 /* Google Maps styling */
 .gmap {
-width: 600px;
-height: 450px;
 border: 2px solid #000000;
-border-radius: 10px;
 box-shadow: 5px 5px 10px #000000;
 }
 
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
- gmp-map {
+gmp-map {
     height: 450px;
-  }
+}
 
 /* Footer styling */
 footer {
@@ -184,9 +181,10 @@ a {
 
 .welcome-image {
     background-image: url("./img/website-landing-page.webp");
+    background-color: rgb(183, 178, 178);
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background-size: cover;
     background-position: center;
-
+    margin-top: 0.5rem;
 }
