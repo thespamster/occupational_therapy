@@ -119,15 +119,9 @@
     color: rgb(3, 13, 163);
 }
 
-/* Google Maps styling */
-.gmap {
-border: 2px solid #000000;
-box-shadow: 5px 5px 10px #000000;
-}
-
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
-gmp-map {
+/* Google Maps link and image style */
+#map {
+    width: 100%;
     height: 450px;
 }
 
@@ -163,6 +157,18 @@ footer {
 #submit-button-style {
     background-color: green;
     color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#submit-button-style:hover {
+    background-color: rgb(34, 246, 34);
+    color: rgb(0, 0, 0);
     border-style: none;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);

@@ -61,44 +61,45 @@
 <!-- Main body including images and text. Bootstrap provides responsiveness on different screen sizes -->
 <body>
   <div class="container-flex main-div">
-    <div class="row d-flex justify-content-center align-items-center row-col9 m-1">
-      <div class="col-12 col-lg-4 m-4 d-flex justify-content-center">
+    <div class="row d-flex justify-content-evenly align-items-center row-col9 g-0 py-2">
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
         <img src="static/img/int749x500.webp" alt="OT" class="img-fluid img-style1">
       </div>
-      <div class="col-12 col-lg-6 m-4 text-start">
+      <div class="col-12 col-lg-6 d-flex justify-content-center pt-3">
+        <div class="col-11 text-start">
         <h2>Contact By Phone</h2>
         <p>Phone: 0770 787 6789. If you would like to speak to me about how I can help then please ring me during office Hours
           (see below) for an informal chat. If I am unable to answer please leave a message and I will get back to you as soon
           as possible.</p>
         </p>
       </div>
+      </div>
     </div>
-    <div class="row d-flex row-col10 m-1 justify-content-center">
-      <div class="col-12 col-lg-6 m-4 d-flex img img-fluid gmap g-0">
-        <gmp-map center="-26.117290496826172,27.89541244506836" zoom="14" map-id="DEMO_MAP_ID">
-          <gmp-advanced-marker position="-26.117290496826172,27.89541244506836" title="My location"></gmp-advanced-marker>
-        </gmp-map>
+    <div class="row d-flex justify-content-center align-items-center row-col10 g-0 py-2">
+      <div class="col-12 col-lg-6 m-4 d-flex img-fluid img-style1">
+        <div id="map">MAP HERE</div>
       </div>
 
     </div>
-    <div class="row d-flex justify-content-center align-items-center row-col9 m-1">
-      <div class="col-12 col-lg-6 m-4 order-2 order-lg-1 text-start">
+    <div class="row d-flex justify-content-evenly align-items-center row-col9 g-0 py-2">
+      <div class="col-12 col-lg-6 d-flex justify-content-center order-2 order-lg-1 pt-3">
+        <div class="col-11 text-start">
         <h2>Contact By Email</h2>
         <p>Email: rlots@email.com. When sending an email please include as much information as possible but remember not to include anything medically
           sensitive. I typically respond to emails within 48-72hrs so if you need to speak to me more urgently please ring me 
           using the number above.</p>
+        </div>
       </div>
-      <div class="col-12 col-lg-4 m-4 order-1 order-lg-2 d-flex justify-content-center">
+      <div class="col-12 col-lg-4 order-1 order-lg-2 d-flex justify-content-center">
         <img src="static/img/clo749x500.webp" alt="OT" class="img-fluid img-style1">
       </div>
     </div>
   </div>
-  <div class="row d-flex justify-content-center align-items-center row-col10 m-1">
-    <div class="col-12 col-lg-6 m-4 order-2 order-lg-1">
+  <div class="row d-flex justify-content-center align-items-center row-col10 g-0 py-2">
+    <div class="col-12 col-md-8 col-lg-6 d-flex justify-content-center">
        <!-- project request form with emailjs -->
-    <div class="row d-flex justify-content-center py-4">
-      <div class="col-12 col-md-8 d-flex justify-content-center">
-          <div class="col-11 form-style d-flex justify-content-center">
+    
+          
               <div id="form">
                   <form id="project-form" onsubmit="return sendMail(this);" method="POST">
                       <input type="text" name="name" id="fullname" class="form-control py-1 mb-2" placeholder="Your Name"
@@ -110,10 +111,9 @@
                       <button type="submit" id="submit-button-style">Send Message</button>
                   </form>
               </div>
-          </div>
+        
       </div>
-  </div>
-    </div>
+  
   </div>
 </div>
 
