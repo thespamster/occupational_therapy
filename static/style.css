@@ -192,19 +192,44 @@ footer {
     color: black;
 }
 
-/* CSS to align SVG icons and accompanying text */
-.icon,
-.text {
-    text-align: start;
-    vertical-align: middle;
-    display: inline-block;
-    margin-right: 10px;
-}
+
 
 .main-image-style {
     width: 100%;
     padding: 0;
     margin: 0;
-    min-height: 75dvh;
+    min-height: 75dvh;  
+}
+
+.mission-statement {
+    font-size: 3rem;
+    font-family: "Caveat", sans-serif; 
+    font-weight: 600; 
+}
+
+/* CSS to align SVG icons and accompanying text */
+.align-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-align: start;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
     
+}
+
+.star-text {
+    font-family: "Caveat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.icon {
+    text-align: start;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
 }
