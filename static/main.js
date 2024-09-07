@@ -1,3 +1,5 @@
+console.log('main.js loaded')
+
 // Modified Bootstrap Javascript for cookie alert //
     const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     const appendAlert = (message, type) => {
@@ -19,12 +21,12 @@
       })
     }
 
-/*  ** NEEDS TO BE ADJUSTED ** function to send an email via emailjs */
+/*  ** NEEDS TO BE ADJUSTED ** function to send an email via emailjs
 function sendMail(contactForm) {
-    emailjs.send("gmail","4uxdesign", {
+    emailjs.send("gmail","uniquelyot", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "message": contactForm.message.value
     })
     .then(
         function(response) {
@@ -34,7 +36,7 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    alert("Thank you. I will get back to you within 48hrs.");
-    getElementById("project-form").reset();
+    alert("Thank you. I will get back to you within 24hrs.");
+    getElementById('contact-form').reset();
     return false;
-}
+} */
