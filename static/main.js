@@ -1,5 +1,3 @@
-console.log('main.js loaded')
-
 // Modified Bootstrap Javascript for cookie alert //
     const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     const appendAlert = (message, type) => {
@@ -20,23 +18,3 @@ console.log('main.js loaded')
         appendAlert("This site is designed to be cookie free. This site does not use any analytics and does not track you. Linked third party sites will have their own cookie policies.", 'warning')
       })
     }
-
-/*  ** NEEDS TO BE ADJUSTED ** function to send an email via emailjs
-function sendMail(contactForm) {
-    emailjs.send("gmail","uniquelyot", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "message": contactForm.message.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    alert("Thank you. I will get back to you within 24hrs.");
-    getElementById('contact-form').reset();
-    return false;
-} */
