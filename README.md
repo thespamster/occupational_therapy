@@ -14,7 +14,7 @@ the author, 4uxdesign. The images are also subject to copyright and are not to b
 
 Google Lighthouse Testing after deployment to Github pages.
 
-![](static/img/glighthouse0824.png)
+![](static/img/glighthouse_screenshot0924.png)
 
 ## Deployment
 
