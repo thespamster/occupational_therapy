@@ -51,7 +51,6 @@
 <!-- Main body including images and text. Bootstrap provides responsiveness on different screen sizes -->
 <body>
   <div class="container-flex main-div">
-
     <div class="row g-0">
       <div class="col-12 mt-2">
         <p class="mission-statement text-center">
@@ -125,8 +124,10 @@
         </p>
       </div>
     </div>
+    <div id="cookieStatement" class="text-center mt-2"></div>
+    <div id="liveAlertPlaceholder"></div>
+
   </div>
-  <div id="cookieStatement" class="text-center mt-2"></div>
 
   <!-- Custom footer -->
   <footer class="row d-flex align-items-start justify-content-between g-0 py-4">
@@ -442,8 +443,9 @@
     </div>
 
     <div class="row g-0">
+      
       <div class="col-5 col-md-12  text-sm-start text-md-center pb-2">
-        <span><button type="button" class="btn footer-btn-style" id="cookieButton">Cookie Statement</button></span>
+        <span><button type="button" class="btn footer-btn-style" id="liveAlertBtn">Cookie Statement</button></span>
         
         <span><button type="button" class="btn footer-btn-style" data-bs-toggle="modal" data-bs-target="#termsModal">
             Terms & Conditions</button></span>
